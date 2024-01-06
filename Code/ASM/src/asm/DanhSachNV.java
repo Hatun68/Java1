@@ -55,7 +55,6 @@ public class DanhSachNV {
             Scanner sc1 = new Scanner(System.in);
             String tieptuc = sc1.nextLine();
             if(tieptuc.equalsIgnoreCase("n")) {
-                check = false;
                 break;
             }
         } while(check);
